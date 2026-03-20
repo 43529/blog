@@ -7,6 +7,6 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://43529.github.io',
-	base: '/my-blog',
+	base: '/blog',
 	integrations: [mdx(), sitemap()],
 });
